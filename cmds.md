@@ -1,6 +1,6 @@
-## Local storage
+# Local storage
 
-# Initial commit 
+## Initial commit 
  
 *  git init
 *  dvc init
@@ -13,21 +13,21 @@
 *  git branch -m master main
 *  git push -u origin main
 
-# Dataset update
+## Dataset update
 
  *  dvc add dataset
  *  git add dataset.dvc
  *  git commit -m "Update dataset after changes"
  *  git push -u origin main
 
-# Rollout
+## Rollout
 
  *  git log --oneline
  *  git checkout d743f8a
  *  dvc checkout
  *  history
 
-## Remote Storage
+# Remote Storage
 
 *  git init
 *  dvc init
@@ -41,6 +41,6 @@ https://dvc.org/doc/user-guide/data-management/remote-storage/google-drive#using
 *  dvc remote modify dataset gdrive_use_service_account true
 *  dvc remote modify dataset --local gdrive_service_account_json_file_path /path/of/dvc_secrets.json
 
-# Make it google drive folder access to anyone with the  link
+## Make it google drive folder access to anyone with the  link
 
 *  dvc push
