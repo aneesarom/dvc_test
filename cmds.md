@@ -2,8 +2,8 @@
 
 # Initial commit 
  
-1666  git init
-1667  dvc init
+*  git init
+*  dvc init
  1668  git commit -m "Init DVC"
  1669  git remote add origin https://pat@github.com/aneesarom/dvc_test.git
  1670  git config --global --add safe.directory /mnt/C006855D06855576/Anees/anees_personal_projects/dvc_test
